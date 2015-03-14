@@ -2,13 +2,17 @@
 <html>
   <head>
     <title>Signal/TextSecure Identity Key Reader</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="textsecure-qr2hex.css" />
   </head>
   <body>
 
   <video id="video" autoplay="autoplay"></video>
-  <button id="reset">Reset</button>
-  <button id="stop" >Stop</button>
-  <div id="decoded">Not decoded.</div>
+  <div class="buttons">
+    <button id="reset">Reset</button>
+    <button id="stop" >Stop</button>
+  </div>
+  <div class="key" id="decoded">Not decoded.</div>
 
   <script src="bower_components/sjcl/sjcl.js"></script>
   <script src="bower_components/qcode-decoder/build/qcode-decoder.min.js"></script>

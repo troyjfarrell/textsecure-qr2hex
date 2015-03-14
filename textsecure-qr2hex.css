@@ -1,0 +1,13 @@
+body {
+  text-align: center;
+  width: 100%;
+}
+video {
+  border: 1px solid #2090ea;
+  margin: 10px auto;
+}
+.key {
+  font-size: x-large;
+  font-family: monospace;
+  margin: 10px;
+}
